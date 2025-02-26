@@ -1,0 +1,28 @@
+body { /*centraliza a div .container no meio da tela*/
+
+    display: flex; /*ativa o flexbox um jeito fácil de organizar elementos na tela*/
+    justify-content: center; /*centraliza tudo na horizontal*/
+    align-items: center; /*centraliza tudo na vertical*/
+    height: 100vh; /*faz a div ocupar toda a tela*/
+    margin: 0; /*remove margens e bordas padrão do navegador*/
+    background-color: cadetblue;
+}
+
+.container { /*caixa da calculadora*/
+
+    width: 300px; /*define a largura fixa*/
+    padding: 20px; 
+    text-align: center; /*centraliza o conteúdo*/
+    border-radius: 10px; /*arredonda as pontas*/
+    background-color: rgb(52, 52, 158); 
+}
+
+button{
+
+    background-color: rgb(10, 228, 10);
+}
+
+h2, p {
+
+    color: white;
+}

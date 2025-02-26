@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"> <!--ajusta a largura da página no tamanho da tela do dispositivo-->
+        <title>Calculadora de idade</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="container"> <!--tag div usada para organizar e estilizar a pág no CSS-->
+            <h2>Calculadora de Idade</h2>
+            <p>Digite seu ano de nascimento:</p>
+            <input type="number" id="anoNascimento"
+            placeholder="Ex: 1990">
+            <button onclick="calcularIdade()">
+                Calcular Idade
+            </button>
+            <p id="resultado"></p>
+        </div>
+        
+    </body>
+    <script src="script.js"></script>
+
+</html>
